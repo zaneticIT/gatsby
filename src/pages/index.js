@@ -63,8 +63,6 @@ const checkboxStyles = {
 
 const mainStyles = {
   display: "flex",
-  flexDirection: window.screen.width > 1280 ? "row" : "column",
-  gap: window.screen.width > 1280 ? "15vw" : 0,
 };
 
 const inputStyle = {
