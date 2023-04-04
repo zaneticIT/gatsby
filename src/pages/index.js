@@ -398,8 +398,6 @@ const IndexPage = () => {
               checkedType[images[num].image.type]
                 ? "inline"
                 : "none",
-            height: window.screen.width > 720 ? "500px" : "200px",
-            padding: window.screen.width > 780 ? "0px" : "100px",
           }}
           src={images[num].image.src}
         />
